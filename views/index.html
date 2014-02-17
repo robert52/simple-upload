@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Simple image upload.</h1>
+    </header>
+    <main>
+      <section id="upload">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          <label for="file">Select your image:</label>
+          <input type="file" name="file" id="file" />
+          <span class="hint">Supported files: jpg, jpge, png.</span>
+          <button type="submit">upload</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Upload - Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .uploaded-image {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Your image was succesfuly uploaded.</h1>
+    </header>
+    <main>
+      <section id="upload">
+        <img class="uploaded-image" src="/images/<%= name %>" alt="Image name: <%= name %>"/>
+      </section>
+    </main>
+  </body>
+</html>
